@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-x-frontend',
+    podModulePrefix: 'ember-x-frontend/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
